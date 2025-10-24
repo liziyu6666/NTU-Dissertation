@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Training data (too large for git)
+training_data/
+training_data_minimal/
+*.pkl
+
+# Model files (can be large)
+*.pth
+*.h5
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Images (optional - comment out if you want to include)
+*.png
+*.jpg
+*.jpeg
+
+# PDF files
+*.pdf
+
+# Temporary files
+*.tmp
+*.bak
+*~
